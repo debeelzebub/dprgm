@@ -4,7 +4,7 @@ class A{
     print("default Construction");
   }
   A.name(){
-    print("named constructor");
+    print("default named constructor");
 
   }
   A.a1(int a) {
