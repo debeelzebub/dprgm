@@ -1,7 +1,12 @@
+/// ------------------------------------------
+/// program of list
+///---------------------------------------------------------------------------------------------------------
 void main(){
   List<int> list=[1,-3,7,9,0,-6,4,-2,0,10,-8,5];
 
-  ///sum of list
+  /// ------------------------------------------
+  /// 1.sum of list
+  ///-----------------------------------------
 
   var sum = 0;
   for (int i=0;i<list.length;i++){
@@ -9,7 +14,10 @@ void main(){
   }
   print("Sum of list : $sum");
 
-  /// sum of odd and even numbers
+  /// ------------------------------------------
+  /// 2.sum of odd and even numbers
+  /// ------------------------------------------
+
   var even = 0;
   var odd= 0;
   for (int i=0;i<list.length;i++){
@@ -21,10 +29,12 @@ void main(){
       }
     }
   }
-  print("Sum of even numbers : $even");
-  print("Sum of odd numbers : $odd");
+  print("Sum of even numbers in list : $even");
+  print("Sum of odd numbers in list : $odd");
 
-  /// count of positive, negative,zero
+  /// ------------------------------------------
+  /// 3.count of positive, negative,zero
+  /// ------------------------------------------
 
   var positive = 0;
   var neg = 0;
@@ -43,7 +53,9 @@ void main(){
   print("Count of Negative numbers in list : $neg");
   print("Count of Zero's numbers in list : $zero");
 
-  ///largest of list
+  /// ------------------------------------------
+  /// 4.largest of list
+  /// ------------------------------------------
 
   var large = 0;
   for (int i=0;i<list.length;i++){
@@ -51,9 +63,11 @@ void main(){
       large=list[i];
     }
   }
-  print("Largest number of list : $large");
+  print("Largest number in the list : $large");
 
-  /// Multipication of two
+  /// ------------------------------------------
+  /// 5.Multipication of two
+  /// ------------------------------------------
 
   List l2=[];
   for (int i=0;i<list.length;i++){
@@ -61,5 +75,5 @@ void main(){
       l2.add(list[i]);
     }
   }
-  print("Multipication of 2 :$l2");
+  print("Multipication of 2 in the list :$l2");
 }
